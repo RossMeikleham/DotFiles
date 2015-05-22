@@ -1,5 +1,8 @@
 all: installAntigen installZSH installVim installTMUX installAwesome installLBotConfig installXresources
 
+installWeechat:
+	ln -s $(CURDIR)/weechat ~/.weechat
+
 installAntigen:
 	ln -s $(CURDIR)/antigen ~/.antigen
 
