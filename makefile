@@ -21,7 +21,10 @@ uninstallZSH:
 installVim:
 	# Create the symlinks to vim
 	ln -s $(CURDIR)/vimrc ~/.vimrc
-	ln -s $(CURDIR)/vim ~/.vim
+	ln -s $(CURDIR)/vim/colors ~/.vim/colors
+	ln -s $(CURDIR)/vim/bundle ~/.vim/bundle
+	ln -s $(CURDIR)/vim/autoload ~/.vim/autoload
+	
 
 installAwesome:
 	#Create symlinks to awesome
