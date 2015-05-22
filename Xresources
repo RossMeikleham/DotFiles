@@ -1,0 +1,116 @@
+! Make Xft less bad
+Xft.antialias:  1
+Xft.autohint:   0
+Xft.dpi:        96
+Xft.hinting:    1
+Xft.hintstyle:  hintfull
+Xft.lcdfilter:  lcddefault
+Xft.rgba:       rgb
+
+
+URxvt.buffered: True
+URxvt.transparent:       True
+
+! Misc settings
+URxvt*intensityStyles : false
+URxvt*jumpScroll      : true
+URxvt*saveLines       : 4096
+URxvt*scrollBar       : false
+URxvt*skipScroll      : false
+URxvt.urgentOnBell    : false
+URxvt*visualBell      : false
+URxvt*internalBorder  : 8
+URxvt*buffered        : false
+
+! Extensions
+URxvt*perl-ext-common : default,matcher,clipboard
+URxvt*matcher*button  : 1
+URxvt*url-launcher    : firefox
+
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+
+URxvt.font: xft:Terminess Powerline:pixelsize=11:antialias=false:hinting=false:autohint=false               
+URxvt.boldFont: xft:Terminess Powerline:bold:pixelsize=11:antialias=false:hinting=false:autohint=false
+!URxvt.background :       #2c3e50
+
+
+!------------------------------------------------------------------------------
+! URxvt Colors
+
+URxvt*cursorColor:                         #917154
+URxvt*colorIT:                             #E3AB8D
+URxvt*colorBD:                             #F0E5DF
+URxvt*colorUL:                             #cd546c
+URxvt*VT100.colorBDMode:                   true
+URxvt*VT100.colorBD:                       red
+URxvt*VT100.colorULMode:                   true
+URxvt*VT100.colorUL:                       magenta
+URxvt*VT100.veryBoldColors:                6
+URxvt*depth:                          32
+URxvt*foreground:                          #eddcd3
+!URxvt*background:                          [92]#181512
+
+! Red/Dark theme 
+
+! Black                               Black !
+URxvt*color0:                              #252525
+URxvt*color8:                              #454545
+! Red                                 Red   !
+URxvt*color1:                              #CD546C
+URxvt*color9:                              #EF545F
+! Green                               Green !
+URxvt*color2:                              #A5AF86
+URxvt*color10:                             #BDC79E
+! Yellow                              Yellow!
+URxvt*color3:                              #CD7860
+URxvt*color11:                             #E88773
+! Blue                                Blue  !
+URxvt*color4:                              #7A9388
+URxvt*color12:                             #94B1A3
+! Magenta                             Magenta
+URxvt*color5:                              #917154
+URxvt*color13:                             #989584
+! Cyan                                Cyan  !
+URxvt*color6:                              #767D75
+URxvt*color14:                             #9DA69E
+! White                               White !
+URxvt*color7:                              #C2C2A8
+URxvt*color15:                             #DBDAC1
+
+
+
+! real Black
+!URxvt*color0:           #2B2B2B
+!URxvt*color8:           #252525
+!URxvt.background :      #252525
+
+! Red
+!URxvt*color1:           #FF0033
+!URxvt*color9:           #C0392B
+
+! Green
+!URxvt*color2:           #2ecc71
+!URxvt*color10:          #27ae60
+
+! Yellow
+!URxvt*color3:           #f1c40f
+!URxvt*color11:          #f39c12
+
+! Blue
+!URxvt*color4:           #3498db
+!URxvt*color12:          #2980b9
+
+! Magenta
+!URxvt*color5:           #9b59b6
+!URxvt*color13:          #8e44ad
+
+! Cyan
+!URxvt*color6:           #1abc9c
+!URxvt*color14:          #16a085
+
+! White
+!URxvt*color7:           #ecf0f1
+!URxvt*color15:          #bdc3c7
+!URxvt.foreground :      #bdc3c7
+
