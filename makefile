@@ -1,11 +1,4 @@
-all: 
-	\installAntigen 
-	\installZSH
-	\installVim
-	\installTMUX
-	\installAwesome
-	\installLBotConfig
-	\installXresources
+all: installAntigen installZSH installVim installTMUX installAwesome installLBotConfig installXresources
 
 installAntigen:
 	ln -s $(CURDIR)/antigen ~/.antigen
