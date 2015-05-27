@@ -84,7 +84,7 @@ call pathogen#infect()
 
 "Setup terminal colour approximation and colorscheme
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
-colorscheme molokai2
+colorscheme molokai
 
 
 "Set so vimrc is automatically reloaded when changes are made
