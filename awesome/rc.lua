@@ -487,7 +487,8 @@ globalkeys = awful.util.table.join(
     awful.key({ altkey,           }, "c",      function () lain.widgets.calendar:show(7) end),
     awful.key({ altkey,           }, "h",      function () fswidget.show(7) end),
 
-    -- ALSA volume control
+    
+ -- ALSA volume control
     awful.key({ altkey }, "Up",
         function ()
             os.execute(string.format("amixer -c %s set %s 1+", volumewidget.card, volumewidget.channel))
@@ -748,4 +749,7 @@ for s = 1, screen.count() do screen[s]:connect_signal("arrange", function ()
         end
       end)
 end
+
+
+awful.util.spawn_with_shell("setxkbmap -layout gb")
 -- }}}

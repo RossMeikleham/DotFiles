@@ -37,6 +37,9 @@ installLBotConfig:
 	#Create symlinks to lambdabot config
 	ln -s $(CURDIR)/ghci ~/.ghci
 
+installncmpcpp:
+	ln -s $(CURDIR)/ncmpcpp ~/.ncmpcpp
+
 .PHONY: installXresources 
 installXresources:
 	ln -s $(CURDIR)/Xresources ~/.Xresources

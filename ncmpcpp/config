@@ -489,7 +489,10 @@ visualizer_in_stereo = "yes"
 #
 #active_window_border = "red"
 #
-visualizer_type = "wave"
+#
+#
+#
+visualizer_type = "wave" 
 visualizer_look = "◆▋"
 message_delay_time = "3"
 playlist_shorten_total_times = "yes"
@@ -509,8 +512,8 @@ external_editor = "vim"
 use_console_editor = "yes"
 header_window_color = "cyan"
 volume_color = "red"
-state_line_color = "yellow"
+state_line_color = "green"
 state_flags_color = "red"
-progressbar_color = "yellow"
+progressbar_color = "green"
 statusbar_color = "cyan"
-visualizer_color = "red"
+visualizer_color = "green"
