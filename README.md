@@ -1,2 +1,2 @@
 # dotfiles
-Window/Linus config files
+Window/Linux config files
